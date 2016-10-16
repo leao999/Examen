@@ -3,15 +3,15 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
-using WebLuisArrieta.Repositorio;
 using WebLuisArrieta.Model;
 
-namespace WebLuisArrieta.Controllers
+namespace WebLuisArrieta.Areas.Fabrica.Controllers
 {
-    public class ClienteController : Controller
+    public class SupplierController : FabricaBaseController<Supplier>
+    // public class ClienteController : Controller
     {
         // GET: Cliente
-        private WebLuisArrietaRepositorio _repositorio = new WebLuisArrietaRepositorio();
+        //  private WebLuisArrietaRepositorio _repositorio = new WebLuisArrietaRepositorio();
         public ActionResult Index()
         {
             //return View(_customer.)

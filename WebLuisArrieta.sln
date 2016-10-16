@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebLuisArrieta.Repositorio"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebLuisArrieta.Model", "WebLuisArrieta.Model\WebLuisArrieta.Model.csproj", "{756570A3-4DBA-4C5F-A864-1B94F8F5FF28}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebLuisArrieta.Test", "WebLuisArrieta.Test\WebLuisArrieta.Test.csproj", "{F67F6F9A-09E5-4BF0-BFB3-54FEC53372F8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{756570A3-4DBA-4C5F-A864-1B94F8F5FF28}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{756570A3-4DBA-4C5F-A864-1B94F8F5FF28}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{756570A3-4DBA-4C5F-A864-1B94F8F5FF28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F67F6F9A-09E5-4BF0-BFB3-54FEC53372F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F67F6F9A-09E5-4BF0-BFB3-54FEC53372F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F67F6F9A-09E5-4BF0-BFB3-54FEC53372F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F67F6F9A-09E5-4BF0-BFB3-54FEC53372F8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
